@@ -71,16 +71,19 @@ body {
   gap: 1rem;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+
 .brand {
   text-decoration: none;
   font-family: "Space Grotesk", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text);
-}
-
-.brand span {
-  color: var(--accent);
 }
 
 .nav-links {
@@ -443,6 +446,14 @@ body {
 
   .menu-toggle {
     display: block;
+  }
+
+  .navbar {
+    position: relative;
+  }
+
+  .nav-actions {
+    margin-left: 0;
   }
 
   .nav-links {
